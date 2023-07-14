@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+.column1 {
+  float: left;
+  width: 50%;
+  padding: 20px;
+  height: 400px; 
+  margin-right: -10px;
+}
+.input1{
+ border-radius:5px;
+ padding:15px;
+ height:10px;
+}
+
+.h1h2{
+  color: black;
+}
+
+label{
+  color: black;
+}
+
+
+/*.button{
+    background-color:#E6E6FA;
+    padding: 10px 16px;
+    transition: all .45s ease;
+    border-radius: 5px;
+    top:-780px;
+  }
+
+  .button:hover {
+    background-color:#800080;
+  }*/
+
+
+   .form button {
+    width: 70%;
+    height: 30px;
+    outline: none;
+    margin-top: 8px;
+    border-radius: 6px;
+    letter-spacing: 2px;
+    background: #1f242d;
+    border: none;
+    transition: all .45s ease;
+    margin-right: 10%;
+  } */
+  
+  .form button:hover {
+    transform: scale(0.9);
+    background: #282d33;
+  }
+  
+  .form button a {
+    color: whitesmoke;
+  }
+
+
+.column2 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 400px; 
+  margin-right: -10px;
+
+}
+.row:before {
+  content: "";
+  display: table;
+  clear: both;
+   
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+   
+}
+
+
+.img1{
+  max-width: 100%; /* Limit the maximum width of the image to fit within the column */
+  max-height: 100%; /* Limit the maximum height of the image to fit within the column */
+  width: auto; /* Reset the width to auto to maintain aspect ratio */
+  height: auto; /* Reset the height to auto to maintain aspect ratio */
+	  
+}
+
+.card1{
+	 padding-left:15%;
+   padding-right:10%;
+   padding-top: 3%;
+}
+
+
+
+.img1 {
+  margin-right: 15%;
+  border-radius: 8px;
+  overflow-x: hidden;
+}
+
+/*.form .input1 {
+  width: 100%;
+  margin-top: 24px;
+}
+
+ .form .input1 input,
+.form .input1 select {
+  position: relative;
+   height: 30px;
+   width: 70%;
+   outline: none;
+   font-size: 1rem;
+   color: #282d33;
+   margin-top: 8px;
+   border: 1px solid #ddd;
+   border-radius: 6px;
+   padding: 0 15px;
+}
+
+.form .hover {
+  width: 70%;
+} /*
